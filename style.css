@@ -8,11 +8,13 @@
 }
 .Navbar{
     position: absolute;
-    top: 0;
-    width: 100;
+    top: 0 ;
+    width: 100%; /*imp %*/
     display: flex;
     justify-content: space-between;
     padding: 2% 10%;
+    z-index:10;
+    background-color: transparent;
 }
 .Navbar_logo{
     width: 125px;
@@ -24,13 +26,98 @@
     height: 100%;
 }
 .nav_right{
-    gap: 10px;
-    margin-left: 650px;
-    display: flex;
+    gap: 10px;    
+    display: flex;    
+    color: white;
+    }
+#dropdown{
+    color: transparent;
+    border:none;
+    color: white;
 }
 .language_dropdown{
-    color: transparent;
+    text-align: center;
+    text-size-adjust: 28px;
+    border: 1px solid white;
+    padding:0.4rem;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    height: 32px;
+    width: 125px;
 }
 .signup_button{
-    background-color: red;
+    background-color: #dc030f;
+    border: #dc030f;
+    padding: 0.25rem,0.4rem;
+    color: white;
+    border-radius: 4px;
+    height: 32px;
+    width: 75px;
+    font-weight: bold;
+}
+.hero_background_image_container{
+    
+    height: 100%;
+    width: 100%;
+}
+.hero_background_image{
+    z-index: 0;
+    height: 100%;
+    width: 100%;   
+    object-fit: cover; /* to fit end to end*/
+}
+.hero_background_overlay{
+    position: absolute;
+    z-index:5;
+    height: 100%;
+    width: 100%;
+    inset: 0;/* setting all margins 0*/
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.hero_card{
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    top: 25%;
+    left: 25%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-align: center;
+    }
+.align{
+    flex-basis: 50%;
+    padding: 0;
+    z-index: 10;
+    width: 100%;
+}
+.hero_title{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.hero_subtitle,
+.hero_description{
+    margin: 1rem 0 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.email{
+    background-color: transparent;
+    padding: 0.25rem,0.5rem;
+    height:60px;
+    width: 450px;
+    border: white;
+    border-radius: 6px;
+    text-align:left;
+    font-size: 18px;
+}
+.button_get_started{
+    height:60px;
+    width: 220px;
+    border: solid #dc030f;
+    background-color: #dc030f;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 25px;
 }
