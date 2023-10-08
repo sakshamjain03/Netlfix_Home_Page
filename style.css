@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box; 
     background-color: black;
     color: white;
     font-family: sans-serif;
@@ -20,6 +20,7 @@
     width: 125px;
     height: 100%;
     display: flex;
+    background-color: transparent;
 }
 .logo{
     width: 100%;
@@ -29,6 +30,7 @@
     gap: 10px;    
     display: flex;    
     color: white;
+    background-color: transparent;
     }
 #dropdown{
     color: transparent;
@@ -55,8 +57,7 @@
     width: 75px;
     font-weight: bold;
 }
-.hero_background_image_container{
-    
+.hero_background_image_container{    
     height: 100%;
     width: 100%;
 }
@@ -78,32 +79,33 @@
     position: absolute;
     display: flex;
     gap: 10px;
-    top: 25%;
+    top: 45%;
     left: 25%;
     text-align: center;
     flex-direction: column;
     align-items: center;
     -webkit-box-align: center;
+    background-color: transparent;
     }
-.align{
-    flex-basis: 50%;
-    padding: 0;
-    z-index: 10;
-    width: 100%;
-}
 .hero_title{
     margin: 0;
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 2.2rem;
+    font-weight:900;
+    background-color: transparent;
 }
-.hero_subtitle,
+.hero_subtitle{
+    margin: 1rem ;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    background-color: transparent;
+}
 .hero_description{
     margin: 1rem 0 0;
+    background-color: #dc030f;
     font-size: 1rem;
-    font-weight: 300;
 }
 .email{
-    background-color: transparent;
+    background-color: rgba(94, 80, 80, 0.742);
     padding: 0.25rem,0.5rem;
     height:60px;
     width: 450px;
@@ -120,4 +122,42 @@
     border-radius: 6px;
     font-weight: 400;
     font-size: 25px;
+}
+.card-1,
+.card-2{
+    border-top: 8px, rgba(69,69,69);
+    padding: 50;
+}
+.card-1{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+    z-index: 8;
+}
+.desc-1{
+    padding-left: 80px;
+}
+.card-title{
+    font-size: 3rem;
+    padding: 1rem;
+    padding-left: 0;
+}
+.card-desc{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.card-2{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+    z-index: 8;
+}
+.desc-2{
+    padding-left: 80px;
 }
