@@ -25,6 +25,7 @@
 .logo{
     width: 100%;
     height: 100%;
+    background-color: transparent;
 }
 .nav_right{
     gap: 10px;    
@@ -160,4 +161,28 @@
 }
 .desc-2{
     padding-left: 80px;
+}
+.footer{
+    font-size: 0.9rem;
+    
+    margin: 8rem;
+    margin-top: 0;
+}
+.footer p{
+    margin-bottom: 1.5rem;
+}
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+}
+.footer li{
+    list-style: none;
+    line-height: 1.9;
+}
+.language_dropdown-2{
+    margin-top: 2rem;
+}
+.closing{
+    margin-top: 1.5rem;
 }
