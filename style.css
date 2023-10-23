@@ -58,25 +58,30 @@
     width: 75px;
     font-weight: bold;
 }
+.double {
+    border-top: 5px double;
+    border-bottom: none;    
+}
 .hero_background_image_container{    
-    height: 100%;
+    height: 800px;
     width: 100%;
 }
 .hero_background_image{
-    z-index: 0;
+    z-index: -100;
     height: 100%;
     width: 100%;   
     object-fit: cover; /* to fit end to end*/
 }
 .hero_background_overlay{
     position: absolute;
-    z-index:5;
-    height: 100%;
+    z-index:0;
+    height: 800px;
     width: 100%;
-    inset: 0;/* setting all margins 0*/
     background-color: rgba(0, 0, 0, 0.4);
+    inset: 0; /*setting all margins 0*/
 }
 .hero_card{
+    z-index: 10;
     position: absolute;
     display: flex;
     gap: 10px;
@@ -102,8 +107,8 @@
 }
 .hero_description{
     margin: 1rem 0 0;
-    background-color: #dc030f;
-    font-size: 1rem;
+    background-color: transparent;
+    font-size: 1.2rem;
 }
 .email{
     background-color: rgba(94, 80, 80, 0.742);
@@ -163,8 +168,7 @@
     padding-left: 80px;
 }
 .footer{
-    font-size: 0.9rem;
-    
+    font-size: 0.9rem;  
     margin: 8rem;
     margin-top: 0;
 }
