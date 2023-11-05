@@ -22,6 +22,10 @@ https://sakshamjain03.github.io/Netlfix_Home_Page/
 ## Screenshots
 
 Include screenshots of your project here.
+https://vscode.dev/github/sakshamjain03/Netlfix_Home_Page/blob/main/images/1.pn
+https://vscode.dev/github/sakshamjain03/Netlfix_Home_Page/blob/main/images/2.png
+https://vscode.dev/github/sakshamjain03/Netlfix_Home_Page/blob/main/images/3.png
+https://vscode.dev/github/sakshamjain03/Netlfix_Home_Page/blob/main/images/4.png
 
 ## Getting Started
 
