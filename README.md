@@ -21,11 +21,10 @@ https://sakshamjain03.github.io/Netlfix_Home_Page/
 
 ## Screenshots
 
-Include screenshots of your project here.
-https://github.com/sakshamjain03/Netlfix_Home_Page/blob/main/images/1.png
-https://github.com/sakshamjain03/Netlfix_Home_Page/blob/main/images/2.png
-https://github.com/sakshamjain03/Netlfix_Home_Page/blob/main/images/3.png
-https://github.com/sakshamjain03/Netlfix_Home_Page/blob/main/images/4.png
+<img width="946" alt="1" src="https://github.com/sakshamjain03/Netlfix_Home_Page/assets/112430888/36f69c75-fc3b-4d23-a155-e64f0a5de0aa">
+<img width="947" alt="2" src="https://github.com/sakshamjain03/Netlfix_Home_Page/assets/112430888/fae49ce3-fe3a-4854-b2ff-6c3cb29fe725">
+<img width="944" alt="3" src="https://github.com/sakshamjain03/Netlfix_Home_Page/assets/112430888/26729331-264a-42be-8f83-9c9aec95222e">
+<img width="946" alt="4" src="https://github.com/sakshamjain03/Netlfix_Home_Page/assets/112430888/614ce7ba-2460-40ed-87ba-7c855481557e">
 
 ## Getting Started
 
