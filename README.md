@@ -31,8 +31,9 @@ https://github.com/sakshamjain03/Netlfix_Home_Page/blob/main/images/4.png
 
 To get a local copy up and running, follow these steps:
 
-1. Clone the repository to your local machine using git clone <https://github.com/sakshamjain03/Netlfix_Home_Page.git>
-2. Open the project folder in your preferred code editor
+1. Navigate to the directory where you want to clone the repository.
+2. Run the command ``git clone https://github.com/sakshamjain03/Netlfix_Home_Page.git`` to clone the repository to your local device.
+Navigate to the project folder using the command ``cd Netlfix_Home_Page``.
 3. Modify the HTML and CSS files to make changes to the Netflix homepage clone
 4. Preview your changes by opening the index.html file in your web browser
 5. Commit your changes and push them to the remote repository when you are satisfied with your changes.
@@ -40,5 +41,14 @@ To get a local copy up and running, follow these steps:
 ## Contributing
 
 Contributions are welcome! Please open an issue or pull request if you have any suggestions or improvements.
+# Create a new branch
+``git checkout -b contribution``
 
+# Add changes to the staging area
+``git add .``
 
+# Commit changes
+``git commit -m "commit message"``
+
+# Push changes to remote repository
+``git push origin contribution``
