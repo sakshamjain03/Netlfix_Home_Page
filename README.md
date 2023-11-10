@@ -38,16 +38,16 @@ Navigate to the project folder using the command ``cd Netlfix_Home_Page``.
 5. Commit your changes and push them to the remote repository when you are satisfied with your changes.
 
 ## Contributing
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or create a pull request.
 
+To contribute to this project:
+1. Fork the repository.
+
+2. Create your feature branch: ``git checkout -b feature/your-feature``
+
+3. Commit your changes: ``git commit -m 'Add some feature'``
+
+4. Push to the branch: ``git push origin feature/your-feature``
+
+5. Create a pull request.
 Contributions are welcome! Please open an issue or pull request if you have any suggestions or improvements.
-# Create a new branch
-``git checkout -b contribution``
-
-# Add changes to the staging area
-``git add .``
-
-# Commit changes
-``git commit -m "commit message"``
-
-# Push changes to remote repository
-``git push origin contribution``
