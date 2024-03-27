@@ -1,3 +1,5 @@
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 # Netflix Homepage Clone
 
 This is a clone of the Netflix homepage, created using HTML and CSS.
@@ -10,6 +12,10 @@ https://sakshamjain03.github.io/Netlfix_Home_Page/
 
 - HTML
 - CSS
+
+## Motivation
+
+The motivation behind creating this Netflix homepage clone was to practice my HTML and CSS skills and showcase my ability to recreate a popular website. By building this clone, I was able to gain hands-on experience in responsive design, navigation bars, carousels, and grid layouts. It was a fun and challenging project that allowed me to improve my front-end development skills.
 
 ## Features
 
@@ -37,18 +43,3 @@ Navigate to the project folder using the command ``cd Netlfix_Home_Page``.
 3. Modify the HTML and CSS files to make changes to the Netflix homepage clone
 4. Preview your changes by opening the index.html file in your web browser
 5. Commit your changes and push them to the remote repository when you are satisfied with your changes.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or pull request if you have any suggestions or improvements.
-## Create a new branch
-``git checkout -b contribution``
-
-## Add changes to the staging area
-``git add .``
-
-## Commit changes
-``git commit -m "commit message"``
-
-## Push changes to remote repository
-``git push origin contribution``
