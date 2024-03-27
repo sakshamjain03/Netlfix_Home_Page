@@ -43,3 +43,18 @@ Navigate to the project folder using the command ``cd Netlfix_Home_Page``.
 3. Modify the HTML and CSS files to make changes to the Netflix homepage clone
 4. Preview your changes by opening the index.html file in your web browser
 5. Commit your changes and push them to the remote repository when you are satisfied with your changes.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or pull request if you have any suggestions or improvements.
+# Create a new branch
+``git checkout -b contribution``
+
+# Add changes to the staging area
+``git add .``
+
+# Commit changes
+``git commit -m "commit message"``
+
+# Push changes to remote repository
+``git push origin contribution``
