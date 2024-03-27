@@ -21,10 +21,11 @@ https://sakshamjain03.github.io/Netlfix_Home_Page/
 
 ## Screenshots
 
-<img width="946" alt="1" src="https://github.com/sakshamjain03/Netlfix_Home_Page/assets/112430888/36f69c75-fc3b-4d23-a155-e64f0a5de0aa">
-<img width="947" alt="2" src="https://github.com/sakshamjain03/Netlfix_Home_Page/assets/112430888/fae49ce3-fe3a-4854-b2ff-6c3cb29fe725">
-<img width="944" alt="3" src="https://github.com/sakshamjain03/Netlfix_Home_Page/assets/112430888/26729331-264a-42be-8f83-9c9aec95222e">
-<img width="946" alt="4" src="https://github.com/sakshamjain03/Netlfix_Home_Page/assets/112430888/614ce7ba-2460-40ed-87ba-7c855481557e">
+Include screenshots of your project here.
+https://github.com/sakshamjain03/Netlfix_Home_Page/blob/main/images/1.png
+https://github.com/sakshamjain03/Netlfix_Home_Page/blob/main/images/2.png
+https://github.com/sakshamjain03/Netlfix_Home_Page/blob/main/images/3.png
+https://github.com/sakshamjain03/Netlfix_Home_Page/blob/main/images/4.png
 
 ## Getting Started
 
@@ -40,14 +41,14 @@ Navigate to the project folder using the command ``cd Netlfix_Home_Page``.
 ## Contributing
 
 Contributions are welcome! Please open an issue or pull request if you have any suggestions or improvements.
-# Create a new branch
+## Create a new branch
 ``git checkout -b contribution``
 
-# Add changes to the staging area
+## Add changes to the staging area
 ``git add .``
 
-# Commit changes
+## Commit changes
 ``git commit -m "commit message"``
 
-# Push changes to remote repository
+## Push changes to remote repository
 ``git push origin contribution``
